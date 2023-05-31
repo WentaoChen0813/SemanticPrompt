@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2752670a-c8a7-4f3f-957e-872a294d9649" name="180">
+        <fileTransfer rootFolder="/mnt/sdb/wentao/few-shot-learning" accessType="SFTP" host="172.18.32.180" port="22" sshConfigId="9f1a5a66-16de-4d37-b8e9-a2855e81710d" sshConfig="wentao@172.18.32.180:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="1b6c2609-d667-42b5-a5f4-62a66cb600bc" name="75">
+        <fileTransfer rootFolder="/data/wentao/few-shot-learning" accessType="SFTP" host="172.18.32.75" port="22" sshConfigId="b19d2f17-fd37-4d91-a452-dbdded1ed2bc" sshConfig="wentao@172.18.32.75:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
